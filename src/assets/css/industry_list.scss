@@ -1,0 +1,60 @@
+@import "@/assets/css/common.scss";
+.industry_box{
+    width:100%;
+    height: auto;
+    background: #fff;
+    margin-top:88px;
+
+}
+.my_order_title {
+    width: 100%;
+    height: 88px;
+    line-height: 88px;
+    background: #fff;
+    text-align: center;
+    font-size: $extra-large-size;
+    border-bottom: 1px solid #e6e6e6;/*no*/
+    position: fixed;
+    top:0;
+    left:0;
+    img{
+        display: block;
+        width:56px;
+        height: 56px;
+        position: absolute;
+        left:10px;
+        top:16px;
+    }
+}
+.public_notice_list{
+    width:100%;
+    width:710px;
+    margin:0 auto;
+    height:176px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 105px;
+    border-bottom:1px solid #e6e6e6;/*no*/
+}
+.public_notice_list>img{
+    display: block;
+    width:180px;
+    height: 120px;
+    margin-top:28px;
+}
+.news_box{
+    width:500px;
+}
+.public_notice_title{
+    width:100%;
+    font-size: $large-size;
+    line-height: 36px;
+    height: 72px;
+    margin-top:27px;
+}
+.public_notice_time{
+    font-size: $smallest-size;
+    color:$gray-color;
+    line-height: 36px;
+    margin-top:20px;
+}

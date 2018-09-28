@@ -1,0 +1,19 @@
+/*=========flex布局========*/
+/**
+@param: $pos1:主轴方向的对齐方式
+$pos2:交叉轴方向对齐方式
+*/
+
+@mixin flex-column($pos1, $pos2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $pos1;
+  align-items: $pos2;
+}
+
+@mixin flex-row($pos1, $pos2) {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: $pos1;
+  align-items: $pos2;
+}

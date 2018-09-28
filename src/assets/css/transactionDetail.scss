@@ -1,0 +1,85 @@
+@import '@/assets/css/base.scss';
+.container {
+  background-color: #fff;
+  margin-top: 110px;
+  padding: 0 20px;
+  border-radius: 16px;
+}
+.title {
+  position: relative;
+  padding: 21px 0;
+  border-bottom: 1px solid #ededed;/*no*/
+  font-size: $large-size;
+  color: #262626;
+  padding-left: 20px;
+  span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 26px;
+    background-color: #1e92ec;
+  }
+}
+.brand-info {
+  padding: 20px 0;
+  border-bottom: 1px solid #ededed;/*no*/
+  .item {
+    display: flex;
+    font-size: $bigger-size;
+    margin-top: 12px;
+    p:first-child {
+      width: 220px;
+      color: #1e92ec;
+    }
+    p:last-child {
+      flex: 1;
+      color: #5c6266;
+    }
+  }
+}
+.coal-info {
+  .item {
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ededed; /*no*/
+    font-size: $bigger-size;
+    p:first-child {
+      width: 330px;
+      color: #1e92ec;
+    }
+    p:last-child {
+      flex: 1;
+      color: #262626;
+    }
+  }
+}
+.mt-50 {
+  margin-top: 40px;
+}
+.line {
+  width: 100%;
+  height: 1px;/*no*/
+  background-color: #ededed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fc-black {
+  color: #262626!important;
+}
+.price {
+  font-size: 40px;
+  color: #ed801f;      
+}
+
+button {
+  width: 100%;
+  height: 88px;
+  background-color: #1e92ec;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: $large-size;
+}

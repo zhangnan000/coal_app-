@@ -1,0 +1,74 @@
+@import '@/assets/css/base.scss';
+  ul {
+    margin-top: 20px;
+  }
+  li {
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  .tip {
+    position: relative;
+    padding: 16px 20px 16px 114px;
+    border-bottom: 1px solid #e6e6e6;/*no*/
+    color: #9da2a6;
+    text-align: left;
+    span {
+      position: absolute;
+      padding: 5px 14px;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      background-color: #1e92ec;
+      border-radius: 15px;
+    }
+  }
+  .content {
+    position: relative;
+    padding: 20px;
+    div {
+      color: #9da2a6;
+    }
+    .coal-type {
+      line-height: 62px;
+      span {
+        font-size: $largest-size;
+        color: #333;
+        font-weight: 700;
+      }
+    }
+    .price {
+      span {
+        font-size: 46px;
+        color: #ed801f;
+      }
+    }
+    .amount {
+      line-height: 52px;
+      span {
+        font-size: $large-size;
+        color: #333;
+      }
+    }
+    .delivery-place {
+      span {
+        font-size: $large-size;
+        color: #333;
+      }
+    }
+  }
+
+  .surplus-time {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    p:first-child {
+      color: #1e92ec;
+      font-size: $bigger-size;
+      line-height: 46px;
+    }
+    p:last-child {
+      color: #9da2a6;
+      font-size: 22px;
+    }
+  }

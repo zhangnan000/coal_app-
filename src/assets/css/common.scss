@@ -1,0 +1,138 @@
+@import './base.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html,
+#app {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-size: $base-size;
+  color: #333;
+  background-color: $body-bg;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* 一行溢出... */
+.overflow_one {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 两行溢出... */
+.overflow_two {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-line-break: auto;
+  -webkit-box-orient: vertical;
+}
+
+/*=================全屏弹窗样式==================*/
+.release-wrap {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+/*=====================重置vux样式=================*/
+.vux-popup-picker-container .vux-popup-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  line-height: 90px;
+  font-size: 30px;
+  background-color: #fbf9fe;
+}
+
+.dp-header {
+  height: 90px;
+  line-height: 90px;
+}
+.dp-container .dp-header .dp-item {
+  font-size:30px;
+}
+/*=======================end====================*/
+
+/*============发布页面提交按钮==============*/
+.btn-submit {
+  display: block;
+  width: 88%;
+  height: 88px;
+  line-height: 88px;
+  margin: 25px auto 45px;
+  background: #1e92ec;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;
+}
+/*===============end===================*/
+/*================top title样式==========*/ 
+.top-title {
+  width: 100%;
+  height: 88px;
+  line-height: 88px;
+  background: #fff;
+  text-align: center;
+  font-size: $extra-large-size;
+  border-bottom: 1px solid #e6e6e6; /*no*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  img {
+    display: block;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 10px;
+    top: 16px;
+  }
+}
+/*===================end=================*/

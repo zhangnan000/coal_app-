@@ -1,0 +1,196 @@
+@import '@/assets/css/common.scss';
+@import '@/assets/css/base.scss';
+.wait_review_detail{
+    width:100%;
+    height: 100%;
+    background: #f6f6f6;
+}
+.my_order_title {
+    width: 100%;
+    height: 88px;
+    line-height: 88px;
+    background: #fff;
+    text-align: center;
+    font-size: $extra-large-size;
+    border-bottom: 1px solid #e6e6e6; /*no*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    img {
+      display: block;
+      width: 56px;
+      height: 56px;
+      position: absolute;
+      left: 10px;
+      top: 16px;
+    }
+  }
+  .price_sort_box{
+      width:710px;
+      height: 90px;
+      line-height: 90px;
+      justify-content: space-between;
+      margin:0 auto;
+      display: flex;
+      margin-top:88px;
+      font-size: $base-size;
+      .price_sort_left{
+        color:$gray-color;
+      }
+      .price_sort_right{
+          color:$blue-color;
+      }
+  }
+  .trade_information_box{
+    width:100%;
+    height: auto;
+    background: #fff;
+    border-top:1px solid #e6e6e6;/*no*/
+    border-bottom:1px solid #e6e6e6;/*no*/
+    font-size: $base-size;
+}
+.trade_information_title{
+    width:100%;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    padding: 0 20px;
+    border-bottom:1px solid #e6e6e6;/*no*/
+}
+.trade_information_left{
+    width:240px;
+    color:$gray-color;
+}
+.trade_information_right{
+    color:#616466;
+}
+.trade_information_list{
+    height: 106px;
+    border-bottom:1px solid #f0f0f0;/*no*/
+    width:710px;
+    margin:0 auto;
+}
+.trade_information_list_active{
+    border:0;
+}
+.trade_information_cell{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+.trade_information_cell:nth-child(1){
+    margin-top:24px;
+}
+.my_delist{
+    width:100%;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    color:$gray-color;
+    font-size: $base-size;
+}
+.my_delist_detail{
+    width: 100%;
+    height: 340px;
+    background: #fff;
+    padding:20px;
+    border-top:1px solid #e6e6e6;/*no*/
+    border-bottom:1px solid #e6e6e6;/*no*/
+    margin-bottom:10px;
+}
+.delist_title{
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    color:$blue-color;
+    font-size: 20px;
+}
+.delist_company_name{
+    width:100%;
+    height: 60px;
+    font-size: $large-size;
+    margin-top:10px;
+    border-bottom: 1px solid #f0f0f0;/*no*/
+    padding-bottom:20px;
+    margin-bottom:15px;
+}
+.single_price_box{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    span{
+        &:nth-child(1){
+            color:$gray-color;
+            width:155px;
+            font-size: 30px;
+        }
+        &:nth-child(3){
+            color:$gray-color;
+            font-size: $base-size;
+        }
+    }
+}
+.single_price_box_other{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    span{
+        &:nth-child(1){
+            color:$gray-color;
+            width:155px;
+            font-size: 30px;
+        }
+        &:nth-child(3){
+            color:$gray-color;
+            font-size: $base-size;
+        }
+    }
+}
+.single_price_box_left{
+    height: 50px;
+    line-height: 50px;
+    span{
+        &:nth-child(1){
+            color:$gray-color;
+            width:155px;
+            font-size: 30px;
+        }
+        &:nth-child(3){
+            color:$gray-color;
+            font-size: $base-size;
+        }
+    }
+}
+.single_price_box>span:nth-child(2){
+    color:#ed801f;
+    font-size: 30px;
+}
+.single_price_box>span:nth-child(2).other_color{
+    color:#333;
+    font-size: $smallest-size;
+}
+.single_price_box_right{
+    font-size: $base-size;
+    color:$blue-color;
+}
+.revise_box{
+    width:100%;
+    height: 98px;
+}
+.revise_box button{
+    width:160px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+    color:#fff;
+    text-align: center;
+    margin-top:21.5px;
+}
+.revise_box button.blue_button{
+    background: #1e92ec;
+}
+.revise_box button.gray_button{
+    background: #bdc1c3;
+}
